@@ -4,6 +4,10 @@
 
 Toximatics is a dataset and framework introduced to better understand how context shapes perceived toxicity in real-life and social conversations. Unlike traditional hate speech detection datasets, which operate on isolated sentences or keyword triggers, Toximatics provides utterance-context pairs with crowd-annotated toxicity scores. This allows researchers to explore pragmatic and perlocutionary dimensions of toxic language in nuanced settings.
 
+## Dataset Generater
+
+Please check our second github page: https://github.com/Mayukhga83/Toximatics-Contextual-Toxicity-Data-Generator and a demonstration: https://toximatics-contextual-toxicity-data-generator-fnn9mzm7bkuzmta4.streamlit.app/ for the datageneration pipeline. This repo as well as the demo allows complete reproducibility of Toximatic like dataset. The current pipeline uses openAI models and better prompts than the original paper. If you wish to use the pipeline please consider citing our paper.
+
 ## Methodology
 
 Contextual Grounding: Contexts are not just thread replies, but full situational descriptors.
